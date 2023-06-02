@@ -6,7 +6,8 @@ const heading = React.createElement("h1", {}, "Namaste Everyone!");
     const heading1 = React.createElement(
         "h1", 
         {
-            id: 'title'
+            id: 'title',
+            key: 'h1',
         },
         "Heading 1 from parcel"
     );
@@ -14,7 +15,8 @@ const heading = React.createElement("h1", {}, "Namaste Everyone!");
     const heading2 = React.createElement(
         "h2", 
         {
-            id: 'title'
+            id: 'title',
+            key: 'h2',
         },
         "Heading 2"
     );
